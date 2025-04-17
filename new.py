@@ -1,16 +1,16 @@
-import streamlit as st
-import pytesseract
-import cv2
-import numpy as np
-from PIL import Image
-import re
-import sqlite3
-from sklearn.datasets import make_classification
-from sklearn.model_selection import train_test_split
-from sklearn.ensemble import RandomForestClassifier
-from sklearn.metrics import confusion_matrix, precision_recall_curve, average_precision_score, classification_report
-import seaborn as sns
-import matplotlib.pyplot as plt
+# import streamlit as st
+# import pytesseract
+# import cv2
+# import numpy as np
+# from PIL import Image
+# import re
+# import sqlite3
+# from sklearn.datasets import make_classification
+# from sklearn.model_selection import train_test_split
+# from sklearn.ensemble import RandomForestClassifier
+# from sklearn.metrics import confusion_matrix, precision_recall_curve, average_precision_score, classification_report
+# import seaborn as sns
+# import matplotlib.pyplot as plt
 
 # Setup tesseract path
 pytesseract.pytesseract.tesseract_cmd = '/usr/bin/tesseract'  # Adjust if needed
