@@ -1,7 +1,6 @@
 from google.colab import files
 uploaded = files.upload()
-!apt-get install tesseract-ocr
-!pip install pytesseract opencv-python
+
 import pytesseract
 import os
 
